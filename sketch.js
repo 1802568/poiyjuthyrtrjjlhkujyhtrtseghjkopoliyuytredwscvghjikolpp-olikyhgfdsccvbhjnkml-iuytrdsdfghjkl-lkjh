@@ -5,7 +5,7 @@ const Constraint= Matter.Constraint
 var engine, world;
 var boing
 function setup() {
-  
+  engine = Engine.create();
   world = engine.world;
   createCanvas(800,400);
   createSprite(400, 200, 50, 50);
