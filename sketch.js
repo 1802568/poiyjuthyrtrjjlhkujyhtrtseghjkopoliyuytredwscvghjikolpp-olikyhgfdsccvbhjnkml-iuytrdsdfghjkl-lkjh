@@ -1,7 +1,4 @@
-const Engine = Matter.Engine
-const World= Matter.World;
-const Bodies = Matter.Bodies;
-const Constraint= Matter.Constraint
+var Engine = Matter.Engine, World = Matter.World, Events = Matter.Events, Bodies = Matter.Bodies;
 var engine, world;
 var boing
 function setup() {
